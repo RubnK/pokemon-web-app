@@ -1,0 +1,52 @@
+
+nav{
+    height: 60px;
+    position: sticky;
+    width: 99%;
+    font-size: 18px;
+    top: 0;
+    z-index: 1100;
+    padding: 2px;
+    backdrop-filter: blur(10px);
+    margin-bottom: 1em;
+}
+nav .logo{
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+    margin-top: 2px;
+    font-weight: bold;
+    transition: all .2s linear;
+    height: 50px;
+}
+nav .logo:hover{
+    color: #2169ec;
+}
+.nav{
+    width: 50%;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+nav .links{
+    
+    width: 60%;
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    list-style-type: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    transition: all .2s linear;
+}
+nav ul a:hover{
+    color: #2169ec;
+}
